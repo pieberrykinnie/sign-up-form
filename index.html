@@ -6,5 +6,71 @@
 		<title>Sign-up Form</title>
 		<link rel="stylesheet" href="style.css" />
 	</head>
-	<body></body>
+	<body>
+		<div id="container">
+			<section class="sidebar">
+				<div class="logo-bar">
+					<img src="./images/logo.png" alt="Logo" class="logo" />
+					<div class="title">ODIN</div>
+				</div>
+				<div class="image-credit">
+					Photo by
+					<a href="https://unsplash.com/@haliewestphoto">Haile West</a>
+					on
+					<a href="https://unsplash.com/">Unsplash</a>
+				</div>
+			</section>
+			<section class="main">
+				<p class="intro-text">
+					This is not a real online service! You know you need something like
+					this in your life to help you realize your deepest dreams. Sign up
+					<em>now</em>
+					to get started.
+					<br />
+					You
+					<em>know</em>
+					you want to.
+				</p>
+				<form action="#" method="post" id="signup">
+					<div class="intro-text">Let's do this!</div>
+
+					<label for="firstName" class="label">
+						First Name
+						<input type="text" id="firstName" name="firstName" />
+					</label>
+
+					<label for="lastName" class="label">
+						Last Name
+						<input type="text" id="lastName" name="lastName" />
+					</label>
+					<label for="email" class="label">
+						Email
+						<input type="email" id="email" name="email" />
+					</label>
+					<label for="phoneNumber" class="label">
+						Phone Number
+						<input type="text" id="phoneNumber" name="phoneNumber" />
+					</label>
+					<label for="password" class="label">
+						Password
+						<input type="password" id="password" name="password" />
+					</label>
+					<label for="confirmPassword" class="label">
+						Confirm Password
+						<input
+							type="confirmPassword"
+							id="confirmPassword"
+							name="confirmPassword" />
+					</label>
+				</form>
+
+				<button type="submit" form="signup">Create Account</button>
+
+				<div class="suggestion">
+					Already have an account?
+					<a href="#">Log in</a>
+				</div>
+			</section>
+		</div>
+	</body>
 </html>
