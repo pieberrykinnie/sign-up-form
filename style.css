@@ -1,0 +1,45 @@
+:root {
+    box-sizing: border-box;
+
+    --main-button: #596D48;
+
+    --input-border: #E5E7EB;
+    --input-border-error: red;
+}
+
+@font-face {
+    font-family: "Norse Bold";
+    src: url("./fonts/Norse-Bold.otf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.sidebar {
+    flex: 0.35;
+    height: inherit;
+    
+    background-image: url("./images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    flex: 0.65;
+    height: inherit;
+}
